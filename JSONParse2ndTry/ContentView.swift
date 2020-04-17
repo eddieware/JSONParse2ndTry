@@ -19,6 +19,7 @@ struct ContentView: View {
             List(fetch.todos) { todo in
                 VStack(alignment: .leading) {
                     // 3.
+                    Text(todo.userId.description)
                     //Text(todo.userId.description)
                     Text(todo.id.description) //description es usada como un to string porque es un INT
                     Text(todo.title) //accedemos a la propiedad title del modelo
