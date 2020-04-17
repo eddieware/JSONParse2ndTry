@@ -14,6 +14,7 @@
 		C5224BCD2433D73A006E6EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5224BCC2433D73A006E6EFD /* Assets.xcassets */; };
 		C5224BD02433D73A006E6EFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5224BCF2433D73A006E6EFD /* Preview Assets.xcassets */; };
 		C5224BD32433D73A006E6EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5224BD12433D73A006E6EFD /* LaunchScreen.storyboard */; };
+		C5224BDB2433D747006E6EFD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5224BDA2433D747006E6EFD /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C5224BCF2433D73A006E6EFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5224BD22433D73A006E6EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5224BD42433D73A006E6EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5224BDA2433D747006E6EFD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C5224BC32433D737006E6EFD /* AppDelegate.swift */,
 				C5224BC52433D737006E6EFD /* SceneDelegate.swift */,
 				C5224BCA2433D737006E6EFD /* ContentView.swift */,
+				C5224BDA2433D747006E6EFD /* Model.swift */,
 				C5224BCC2433D73A006E6EFD /* Assets.xcassets */,
 				C5224BD12433D73A006E6EFD /* LaunchScreen.storyboard */,
 				C5224BD42433D73A006E6EFD /* Info.plist */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5224BDB2433D747006E6EFD /* Model.swift in Sources */,
 				C5224BC42433D737006E6EFD /* AppDelegate.swift in Sources */,
 				C5224BC92433D737006E6EFD /* JSONParse2ndTry.xcdatamodeld in Sources */,
 				C5224BCB2433D737006E6EFD /* ContentView.swift in Sources */,
